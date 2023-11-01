@@ -84,3 +84,7 @@ print(ashok.__dict__)
 
 for e in emp.all:
     print(e, type(e), e.name, e.age)
+
+
+numbers = range(1, 100)
+even_numbers = [ n for n in numbers if n % 2 == 0]
