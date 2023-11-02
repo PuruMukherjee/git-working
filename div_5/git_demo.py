@@ -16,3 +16,7 @@ print(div_11)
 # comitting
 div_13 = [ n for n in range(200) if n%13 ==0]
 print(div_13)
+
+# div_17 - divide by 17
+div_17 = [n for n in range(400) if n%17 ==0]
+print(div_17)
